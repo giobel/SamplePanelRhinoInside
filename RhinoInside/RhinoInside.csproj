@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <!-- nuget properties -->
+    <PackageId>Rhino.Inside</PackageId>
+    <Version>7.0.0</Version>
+    <Authors>Robert McNeel and Associates</Authors>
+    <Description>Rhino.Inside assembly resolver.</Description>
+    <Platforms>x64;AnyCPU</Platforms>
+    <Configurations>Debug;Release;DesignTime</Configurations>
+    <!-- <PackageOutputPath>$(MSBuildThisFileDirectory)dist</PackageOutputPath> -->
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="7.18.22124.3001" ExcludeAssets="runtime">
+      <IncludeAssets>compile; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Grasshopper" Version="7.18.22124.3001" ExcludeAssets="runtime">
+      <IncludeAssets>compile; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="RhinoWindows" Version="7.18.22124.3001" ExcludeAssets="runtime">
+      <IncludeAssets>compile; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NuGet.Build.Tasks.Pack" Version="6.1.0" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

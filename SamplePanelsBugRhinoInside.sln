@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RhinoInside", "RhinoInside\RhinoInside.csproj", "{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{2FA85B58-37E7-4EFE-B2C4-1AA6917810DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		DesignTime|Any CPU = DesignTime|Any CPU
+		DesignTime|x64 = DesignTime|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.Debug|x64.ActiveCfg = Debug|x64
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.Debug|x64.Build.0 = Debug|x64
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.DesignTime|Any CPU.ActiveCfg = DesignTime|Any CPU
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.DesignTime|Any CPU.Build.0 = DesignTime|Any CPU
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.DesignTime|x64.ActiveCfg = DesignTime|x64
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.DesignTime|x64.Build.0 = DesignTime|x64
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892E5379-901B-4DE5-92D4-8AE74BC3CFD5}.Release|x64.ActiveCfg = Release|x64
+		{2FA85B58-37E7-4EFE-B2C4-1AA6917810DA}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{2FA85B58-37E7-4EFE-B2C4-1AA6917810DA}.Debug|x64.ActiveCfg = Debug|x64
+		{2FA85B58-37E7-4EFE-B2C4-1AA6917810DA}.Debug|x64.Build.0 = Debug|x64
+		{2FA85B58-37E7-4EFE-B2C4-1AA6917810DA}.DesignTime|Any CPU.ActiveCfg = Debug|x64
+		{2FA85B58-37E7-4EFE-B2C4-1AA6917810DA}.DesignTime|x64.ActiveCfg = Debug|x64
+		{2FA85B58-37E7-4EFE-B2C4-1AA6917810DA}.Release|Any CPU.ActiveCfg = Release|x64
+		{2FA85B58-37E7-4EFE-B2C4-1AA6917810DA}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA2CE641-88AF-499B-9981-7D8DAC9CA61E}
+	EndGlobalSection
+EndGlobal
